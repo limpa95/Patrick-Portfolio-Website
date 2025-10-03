@@ -40,7 +40,7 @@ function DeckPage({ setCard }) {
     // Make POST request to partner's microservice using card name and receive document id containing img url
     let id = '';
     const cardImg = async () => {
-        const response = await fetch('http://patrickhlim.com:4000/findCard', {
+        const response = await fetch('https://microservice-portfolio-project-production.up.railway.app:4000/findCard', {
             
             method: 'POST',
             body: JSON.stringify({'name': name}),
