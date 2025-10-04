@@ -19,7 +19,7 @@ module.exports = async function findCard(searchString) {
     url = 'https://formatlibrary.com/cards/' + newSearchString;
     await page.goto(url, { timeout: 0, waitUntil: "domcontentloaded" });
 
-    await new Promise(r => setTimeout(r, 100));
+    await new Promise(r => setTimeout(r, 500));
 
     
     let name = await page.$eval('.single-card-title.pwk-border-bottom', (e) => e.innerText)
