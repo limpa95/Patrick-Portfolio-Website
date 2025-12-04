@@ -1,15 +1,15 @@
 # Portfolio Website
 
 **Technologies Used:** 
-*HTML
-*CSS
-*Javascript
-*Node
-*Express
-*MongoDB
-*Mongoose
-*REST
-*React
+* HTML
+* CSS
+* Javascript
+* Node
+* Express
+* MongoDB
+* Mongoose
+* REST
+* React
 
 ## **Authors:**
 Patrick Lim
