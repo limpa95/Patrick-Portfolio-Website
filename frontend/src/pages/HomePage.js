@@ -35,7 +35,7 @@ function HomePage() {
                     </dd>
                     <dt><strong>REST</strong></dt>
                     <dd>Representational State Transfer (REST) is a web service that follows REST guidelines. One guideline is that a server manages collections of resources and those are shown to clients with unique URLs. CRUD operations are provided by
-                        HTTP methods through POST, GET, PUT, DELETE. Finally, servers should be stateless. Each HTTP request is isolated and does not remember information from previous requests. This website uses the REST API to perform CRUD operation as the backend. 
+                        HTTP methods through POST, GET, PUT, DELETE. Finally, servers should be stateless. Each HTTP request is isolated and does not remember information from previous requests. This website uses the REST API to perform CRUD operations as the backend. 
                     </dd>
                     <dt><strong>React</strong></dt>
                     <dd>React is used for this website's frontend. It is a framework used for frontend applications that updates the DOM and minimizes the rendering for the browser. Pages are thus built with components instead of HTML directly, updates are
