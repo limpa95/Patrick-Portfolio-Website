@@ -16,23 +16,23 @@ function TopicsPage() {
                 </nav>
             <article class="homepage" id="webServers">
                 <h3>Web Servers</h3>
-                <p>For most <strong>websites</strong> and <strong>servers</strong>, an <strong>index</strong>
-                     is the default file that is returned when a <strong>request</strong> is made to the website or server. 
+                <p>For most <strong>websites</strong> and <strong>servers</strong>, an <strong>index </strong>
+                    is the default file that is returned when a <strong>request</strong> is made to the website or server. 
                     The <strong>index</strong> file is often called the <strong>homepage</strong> and serves as the default page that appears to the user
                     when no resource or path is specified. While <strong>index.html</strong> is the most common file used,
                     other servers may look for index.js, index.php, or even give the <strong>homepage</strong> a different
                     name such as default.html.
                 </p>
-                <p>In the browser's <strong>Web Dev/Inspector Network</strong> screen, the <strong>HTTP request</strong> and <strong>response</strong> 
-                     can be seen. It shows the page <strong>status</strong>, <strong>method</strong>, IP, policy, language, cache instructions,
+                <p>In the browser's <strong>Web Dev/Inspector Network</strong> screen, the <strong>HTTP request</strong> and <strong>response </strong> 
+                    can be seen. It shows the page <strong>status</strong>, <strong>method</strong>, IP, policy, language, cache instructions,
                     browser version, age, dates etc. When checking the file, the main difference between
                     the <strong>web server</strong> and local computer is information about connecting to the internet/web.
                     The local file does list the <strong>status code</strong>, <strong>request method</strong>, 
                     and content type but lacks <strong>request</strong> and <strong>response</strong> data about networking 
                     because the file is not hosted online. The <strong>URL</strong> lists the file path on 
-                    the local computer and not to a <strong>URL</strong> for a <strong>server</strong>. In contrast, the file details that are hosted on the <strong>web server</strong> 
-                     has information like the remote address, cache instructions, <strong>server</strong> names and more. The <strong>status code</strong>, 
-                     <strong>request method</strong>, and content type are still listed for the <strong>web server</strong> file as well.
+                    the local computer and not to a <strong>URL</strong> for a <strong>server</strong>. In contrast, the file details that are hosted on the <strong>web server </strong> 
+                    has information like the remote address, cache instructions, <strong>server</strong> names and more. The <strong>status code </strong>, 
+                    <strong>request method</strong>, and content type are still listed for the <strong>web server</strong> file as well.
                 </p>
                 <p>The favicon.ico file has a <strong>status code</strong> of 200 because the OSU server provides it 
                     automatically. It refers to the favorites icon for the webpage. Since the file was
@@ -45,9 +45,9 @@ function TopicsPage() {
                     The host <strong>domain</strong> is oregonstate.edu, as indicated by the preceding //. 
                     There is no <strong>port</strong> number, so the <strong>server</strong> likely uses the default <strong>port</strong> number 443. 
                     After the /, the path to the resource/file is ~limpa/a1-limpa/. It is organized in a directory, specifically the a1-limpa folder on the 
-                     <strong>web server</strong>. The <strong>index.html</strong> file is not listed in the <strong>URL</strong>, but the <strong>request</strong> 
-                     for / is mapped to <strong>index.html</strong> by default in the Apache <strong>web server</strong> that OSU uses. Thus, the contents of the 
-                     <strong>index.html</strong> file (<strong>homepage</strong>) is returned to the <strong>web client</strong>. 
+                    <strong> web server</strong>. The <strong>index.html</strong> file is not listed in the <strong>URL</strong>, but the <strong>request </strong> 
+                    for / is mapped to <strong>index.html</strong> by default in the Apache <strong>web server</strong> that OSU uses. Thus, the contents of the 
+                    <strong> index.html</strong> file (<strong>homepage</strong>) is returned to the <strong>web client</strong>. 
                 </p>
             </article>
             <article class="homepage" id="frontendDesign">
@@ -57,8 +57,8 @@ function TopicsPage() {
                     Frontend developers need to design their pages using visual features that help the user interact and navigate the website.
                     Creating a consistent color scheme, along with easily recognizable fonts, media, and icons, increases the visual appeal 
                     of the website and encourages users to stay on it. Combining this with intuitive and fast navigation systems enable users to engage 
-                    with the content without frustration and accomplish their intended goals. Good <strong>frontend design</strong> 
-                     should motivate users to continue interacting with the visual elements of the website to ultimately form a pleasant and appropriate experience 
+                    with the content without frustration and accomplish their intended goals. Good <strong>frontend design </strong> 
+                    should motivate users to continue interacting with the visual elements of the website to ultimately form a pleasant and appropriate experience 
                     during its use. The trends for <strong>frontend design</strong> often change over the years, but the focus is still on <strong>usability</strong>.
                     Ensuring that the user's experience is positive is very important because users may choose alternative products if their needs are not met. 
                 </p>
@@ -94,12 +94,12 @@ function TopicsPage() {
                         <li>Internal content: Internal <strong>anchors</strong> link to items within the same page by using IDs. <strong>Tags</strong> that use an <strong>ID</strong> attribute
                         can then have an <strong>anchor</strong> link to the <strong>tag</strong> using a hashtag. Users often expect interactive buttons to move through sections of a page, and 
                         internal <strong>anchors</strong> can also be used with <strong>local navigation</strong> tags to link articles within sections.</li>
-                        <li>Page-to-page: To move page-to-page, an <strong>anchor</strong> can be used by specifying the value of href to be a path to the other page. There are <strong>absolute paths</strong> 
-                             that use a complete <strong>URL</strong>, but these are typically used to link to outside resources. <strong>Relative paths</strong> are more often used for 
+                        <li>Page-to-page: To move page-to-page, an <strong>anchor</strong> can be used by specifying the value of href to be a path to the other page. There are <strong>absolute paths </strong> 
+                            that use a complete <strong>URL</strong>, but these are typically used to link to outside resources. <strong>Relative paths</strong> are more often used for 
                             files located within a website and are commonly used for page-to-page <strong>anchors</strong>. If in the <strong>same directory</strong>, a <strong>relative URL</strong> can be 
                             specified using the name of the file itself, which is the preferred syntax. ./ can also be used, but it is not preferred. To move down a <strong>sub/child directory</strong>, 
                             a / can be added between names of directories and files. To move up <strong>parent directories</strong>, ../ can be used. ../ moves up one directory. Once the correct 
-                             <strong>parent directory</strong> has been reached, then we can move down the directory. Similar to internal <strong>anchors</strong>, developers can improve usability of their website 
+                            <strong> parent directory</strong> has been reached, then we can move down the directory. Similar to internal <strong>anchors</strong>, developers can improve usability of their website 
                             using <strong>anchors</strong> in a <strong>global navigation</strong> block. After the paths are specified in the <strong>anchors</strong>, buttons will be created for user interaction</li>
                     </ol>
                 </p>
@@ -159,20 +159,20 @@ function TopicsPage() {
                 <h3>Cascading Stylesheets</h3>
                 <p>As the name implies, <strong>Cascading Stylesheets</strong> (CSS) change the style of websites and apps by adjusting the organization and content of webpages. Essentially, it allows developers to customize the visual components
                     of their website to improve the <strong>usability</strong> for their target audience. While <strong>HTML</strong> is used to design the functionality of a website, CSS uses its own syntax to adjust the default  
-                     <strong>HTML</strong> styles and meet a developer's desired visual design.
+                    <strong> HTML</strong> styles and meet a developer's desired visual design.
                 </p>
                 <p>There are 5 ways to incorporate styles using CSS.
                     <ol>
-                        <li><strong>External rules</strong>: Normally, <strong>HTML</strong> files use styles by using external files with a .css extension. They can either be linked or <strong>imported</strong> 
-                             using the @import method. This is the most commonly used way of making styles because you can efficiently focus on the visual design of a website in a single file
+                        <li><strong>External rules</strong>: Normally, <strong>HTML</strong> files use styles by using external files with a .css extension. They can either be linked or <strong>imported </strong> 
+                            using the @import method. This is the most commonly used way of making styles because you can efficiently focus on the visual design of a website in a single file
                             location. As such, making long-term changes with external files is preferred. The other methods listed below are for one-off style changes because they can be difficult to debug and troubleshoot.
                         </li>
                         <li><strong>Embedding with HTML</strong>: A &lt;style&gt; tag can be used by writing the style code within brackets {}.
                         </li>
                         <li><strong>Inline with HTML</strong>: Styles can be written <strong>inline</strong> as well using an attribute and value. For example: &lt;h2 style="color:blue"&gt;.
                         </li>
-                        <li><strong>Template literals in Javascript</strong>: <strong>Template literals</strong> are strings that contain expressions, which can be used for adjusting styles. To do this, <strong>Template literals</strong> 
-                             are enclosed in <strong>backticks</strong> (`). The value of the variable is checked and converted into a string to splice a response.
+                        <li><strong>Template literals in Javascript</strong>: <strong>Template literals</strong> are strings that contain expressions, which can be used for adjusting styles. To do this, <strong>Template literals </strong> 
+                            are enclosed in <strong>backticks</strong> (`). The value of the variable is checked and converted into a string to splice a response.
                         </li>
                         <li><strong>Document Object Model (DOM) in Javascript</strong>: The DOM API has a style property that can be used to change the style of a node. It is represented by a Javascript object. Property names in CSS correspond with 
                             the names in the DOM, so names of colors can be used similar to CSS. Some property names in CSS have a dash. In these cases, the names are converted to camel case names.
@@ -239,7 +239,7 @@ function TopicsPage() {
                 <p>
                     To improve usability, there are certain recommendations for <strong>form styles</strong> that should be implemented. fieldset should be changed from the default so that text is easier to read
                     and is not overlapping with borders. Labels should be above rather than inline by using the display property. To help users with larger fingers or arthritis, font-size should be increased and padding used to widen buttons and input fields.
-                     <strong>Autofocus</strong> should also be used to help users get started with entering data. As stated before, required fields should be labeled with an asterisk to denote which fields are required. 
+                    <strong> Autofocus</strong> should also be used to help users get started with entering data. As stated before, required fields should be labeled with an asterisk to denote which fields are required. 
                     For empty fields, placeholder text should have increased contrast to improve readability. For inputs that need to meet certain requirements, border colors changing to either red or green can be good indicators.
                 </p>
             </article>
@@ -273,9 +273,9 @@ function TopicsPage() {
                     with the . operator or deleted with the delete operator. To get the name of all the properties, the object.keys() method can be used as well.
                 </p>
                 <p><strong>Arrays</strong> are a specific type of object that stores multiple items under a variable name. They are typically created using brackets []. The property names must be strings, but the values can be any 
-                     <strong>javascript</strong> type, including other objects. Accessing the elements of the <strong>array</strong> can be done by using 0-based integer indexing like [1] or using string based property names like ['0']. 
-                     <strong>Arrays</strong> have many methods and properties to obtain information about itself. Array.isArray determines if the value of a variable is an <strong>array</strong> or not. The property length returns the number of elements in the 
-                     <strong>array</strong>. push() adds elements to the end of an <strong>array</strong> and pop removes and returns the last element. Finally, includes() determines if a value exists in the elements of an <strong>array</strong>.
+                    <strong> javascript</strong> type, including other objects. Accessing the elements of the <strong>array</strong> can be done by using 0-based integer indexing like [1] or using string based property names like ['0']. 
+                    <strong> Arrays</strong> have many methods and properties to obtain information about itself. Array.isArray determines if the value of a variable is an <strong>array</strong> or not. The property length returns the number of elements in the 
+                    <strong> array</strong>. push() adds elements to the end of an <strong>array</strong> and pop removes and returns the last element. Finally, includes() determines if a value exists in the elements of an <strong>array</strong>.
                 </p>
                 <p><strong>JSON</strong>, otherwise known as <strong>Javascript Object Notation</strong>, is used to exchange data between applications. <strong>JSON</strong> can map objects to a string in <strong>JSON</strong> format, and it can also 
                     create an object from a string in <strong>JSON</strong> format. Because it is independent of any programming language, <strong>JSON</strong> lets programs exchange data even though they might be written in different programming languages. 
