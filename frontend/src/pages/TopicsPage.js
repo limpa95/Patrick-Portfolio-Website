@@ -31,8 +31,8 @@ function TopicsPage() {
                     and content type but lacks <strong>request</strong> and <strong>response</strong> data about networking 
                     because the file is not hosted online. The <strong>URL</strong> lists the file path on 
                     the local computer and not to a <strong>URL</strong> for a <strong>server</strong>. In contrast, the file details that are hosted on the <strong>web server </strong> 
-                    has information like the remote address, cache instructions, <strong>server</strong> names and more. The <strong>status code </strong>, 
-                    <strong>request method</strong>, and content type are still listed for the <strong>web server</strong> file as well.
+                    has information like the remote address, cache instructions, <strong>server</strong> names and more. The <strong>status code</strong>, 
+                    <strong> request method</strong>, and content type are still listed for the <strong>web server</strong> file as well.
                 </p>
                 <p>The favicon.ico file has a <strong>status code</strong> of 200 because the OSU server provides it 
                     automatically. It refers to the favorites icon for the webpage. Since the file was
