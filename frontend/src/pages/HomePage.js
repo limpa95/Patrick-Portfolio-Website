@@ -7,7 +7,7 @@ function HomePage() {
         <article>
             <p>
                 My goal is to obtain an internship or full-time position in software development so that I can contribute to exciting programming projects and learn new skills.
-                As a postbacc student working towards a degree in Computer Science, I hope to expand my knowledge about programming and explore the various fields in the software industry.
+                As a recent graduate with a degree in Computer Science, I hope to expand my knowledge about programming and explore the various fields in the software industry.
             </p>
             <p>This website uses the following technologies for its creation:
                 <dl>
