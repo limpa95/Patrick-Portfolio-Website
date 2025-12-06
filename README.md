@@ -10,6 +10,7 @@
 * Mongoose
 * REST
 * React
+* Puppeteer
 
 ## **Authors:**
 Patrick Lim
@@ -22,8 +23,8 @@ The Yugioh image microservice was orginally created by my project partner, Thea 
 
 ## Project Overview
 
-This website was created using various technologies related to web development and demonstrates my proficiency and knowledge about it. It also includes a separate microservice that uses image web scraping to lookup
-images of from the Yugioh card game.
+This website was created using various technologies related to web development and demonstrates my proficiency and knowledge about it. It also includes a separate microservice that uses web scraping (Puppeteer) to lookup
+images from the Yugioh card game.
 
 ## Project URL:
 https://patricks-frontend.onrender.com/

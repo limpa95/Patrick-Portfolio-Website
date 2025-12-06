@@ -41,6 +41,9 @@ function HomePage() {
                     <dd>React is used for this website's frontend. It is a framework used for frontend applications that updates the DOM and minimizes the rendering for the browser. Pages are thus built with components instead of HTML directly, updates are
                         made through states, and it turns this app into a single page application (SPA).
                     </dd>
+                    <dt><strong>Puppeteer</strong></dt>
+                    <dd>Puppeteer is a Javascript API used to control a headless browser. It runs seperately from the frontend and backend of this website and acts as a microservice to look up images of Yugioh cards. 
+                    </dd>
                 </dl>
             </p>
         </article>
