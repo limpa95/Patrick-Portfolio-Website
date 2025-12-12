@@ -1,5 +1,7 @@
 # Portfolio Website
 
+![Banner](images/Homepage.PNG)
+
 **Technologies Used:** 
 * HTML
 * CSS
